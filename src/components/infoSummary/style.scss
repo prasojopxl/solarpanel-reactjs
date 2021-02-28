@@ -1,0 +1,34 @@
+@import "../../assets/css/var.scss";
+
+.infosummary {
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,f4f3ee+35,f4f3ee+62,cbc4ad+100 */
+		background: rgb(254,255,255); /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover,  #feffff 0%, #f4f3ee 35%, #f4f3ee 62%, #cbc4ad 100%); /* FF3.6-15 */
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(254,255,255,1) 0%,rgba(244,243,238,1) 35%,rgba(244,243,238,1) 62%,rgba(203,196,173,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: radial-gradient(ellipse at center,  rgba(254,255,255,1) 0%,rgba(244,243,238,1) 35%,rgba(244,243,238,1) 62%,rgba(203,196,173,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#cbc4ad',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */			
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;	
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		color: $color-green;    
+        img {
+
+        }
+        h4 {
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 40px;
+            margin-top: 10px;
+            margin-bottom: 0;
+            font-family: $font-helveticaBold;
+        }
+}

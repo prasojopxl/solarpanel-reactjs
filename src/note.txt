@@ -1,0 +1,54 @@
+API Data Inverter
+
+# SUMMARY PAGE
+
+Total production in kWh {Etotal}
+Total earnings in RP {BillTotal}
+Total C02 reduced in KG {CO2Total}
+
+Url: https://www.solarkita.com/pvdata/API/InverterDataSum?serial=9947053
+JSON: [{"TotalPac":"441.8", "EToday":"0.1", "ETotal":"7020.3", "CO2Total":6318, "BillTotal":7020300, "EVTotal":20359, "TreeTotal":8, "CoalTotal":2457, "CO2Today":0, "BillToday":100, "BillThisYear":5624200, "BillThisMonth":1124700}]
+
+# SOLAR PRODUCTION PAGE
+
+Current production in KW {TotalPac}
+Url: https://www.solarkita.com/pvdata/API/InverterDataSum?serial=9947053
+JSON: [{"TotalPac":"16317.1", "EToday":"78.4", "ETotal":"6996", "CO2Total":6296, "BillTotal":6996000, "CO2Today":71, "BillToday":78400}]
+
+To Day production in KW - TIME {Power, TimeI}
+Url: https://www.solarkita.com/pvdata/API/daydata?serial=9947053&day=2020-01-01
+JSON: [{"TimeStamp":"1577833200",
+"Serial":"9947053", "TotalYield":"1396", "Power":"0", "DateI":"2020-01-01", "TimeI":"06:00", "PowerPct":"0.00"}, …]
+
+Daily production in KWH - DAY {DayYield, DateI}
+Url: https://www.solarkita.com/pvdata/API/monthdata?serial=9947053&month=2020-01
+JSON: [{"TimeStamp":"1577811600", "Serial":"9947053", "TotalYield":"1440.00", "DayYield":"43.80", "DateI":"2020-01-01", "TimeI":"00:00", "DayHour":"1.46", "PowerMax":"9437"}, …]
+
+Monthly product in KWH - MONTH {TotalYear, MonthI}
+Url: https://www.solarkita.com/pvdata/API/yeardata?serial=9947053&year=2020
+JSON: [{"Serial":"9947053", "TotalYear":"2362.20", "MonthI":"2020-01", "YearI":"2020", "DayHourAvg":"2.54", "PowerMax":"27107"}, …]
+
+Yearly production in KWH - YEAR {Total, YearI}
+Url: https://solarkita.com/pvdata/API/totaldata?serial=9947053
+JSON: [{"Serial":"9947053", "Total":0, "YearI":"2017"}, …]
+
+# EARNINGS PAGE
+
+Total earning in RP {BillTotal}
+To day earning in RP {BillToday}
+This month earning in RP {BillThisMonth}
+This year earning in RP {BillThisYear}
+
+Url: https://www.solarkita.com/pvdata/API/InverterDataSum?serial=9947053
+JSON: [{"TotalPac":"441.8", "EToday":"0.1", "ETotal":"7020.3", "CO2Total":6318, "BillTotal":7020300, "EVTotal":20359, "TreeTotal":8, "CoalTotal":2457, "CO2Today":0, "BillToday":100, "BillThisYear":5624200, "BillThisMonth":1124700}]
+
+
+# CONTRIBUTION PAGE
+
+Total CO2 reduced in KG, 1KWH = 0.9 KG {CO2Total}
+Total tree planted in TREE,1KWH=0.0012 TREES {TreeTotal}
+Electrical car in KM, 1KWH=2.9KM {EVTotal}
+Coal consumption reduced  in KG, 1KWH=0.35KG {CoalTotal}
+
+Url: https://www.solarkita.com/pvdata/API/InverterDataSum?serial=9947053
+JSON: [{"TotalPac":"441.8", "EToday":"0.1", "ETotal":"7020.3", "CO2Total":6318, "BillTotal":7020300, "EVTotal":20359, "TreeTotal":8, "CoalTotal":2457, "CO2Today":0, "BillToday":100, "BillThisYear":5624200, "BillThisMonth":1124700}]

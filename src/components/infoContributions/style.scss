@@ -1,0 +1,14 @@
+@import "../../assets/css/var.scss";
+
+.wrp-contributions {
+    h4 {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }   
+    h3 {
+        margin-top: 0;
+        color: $color-green;
+        font-family: $font-helveticaBold;
+        font-size: 20px;
+    }
+}

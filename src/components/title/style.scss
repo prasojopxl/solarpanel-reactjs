@@ -1,0 +1,16 @@
+@import "../../assets/css/var.scss";
+
+.wrp-title {
+    display: block;
+    text-align: center;
+    h2 {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    h5 {
+        margin-top: 10px;
+        font-weight: normal;
+        font-family:$font-helveticalight;
+        font-size: 16px;
+    }
+}
